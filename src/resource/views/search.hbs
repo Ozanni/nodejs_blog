@@ -1,0 +1,16 @@
+<div class="mt-4"> 
+    {{!-- mt-4 có sẵn trong bootstrap4 để đẩy form xuống dưới phần header 1 chút --}}
+    <form method="post">
+        {{!-- form có mặc định method là GET,
+        ta muốn đổi sang method khác thì thêm method vào 
+        <form method="POST"></form>--}}
+        {{!-- Tuy nhiên, cần thêm đường dẫn routing ở file index.js với phương thức post --}}
+  <div class="form-group">
+    <label for="search-input">Keywords</label>
+    <input type="text" name="q" class="form-control" id="search-input" placeholder="Enter keywords">
+  </div>
+
+  
+  <button type="submit" class="btn btn-primary">Search</button>
+</form>
+</div>
