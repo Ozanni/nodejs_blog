@@ -22,23 +22,20 @@
     "url": "https://github.com/Ozanni/nodejs_blog/issues"
   },
   "homepage": "https://github.com/Ozanni/nodejs_blog#readme",
-  
   "lint-staged": {
     "src/**/*.{json,js,scss}": "prettier --tab-width 4 --single-quote --trailing-comma all --write"
   },
-
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
-  
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^7.0.7"
   },
   "devDependencies": {
-    "husky": "^8.0.3",
+    "husky": "^4.2.5",
     "lint-staged": "^13.2.3",
     "morgan": "^1.10.0",
     "node-sass": "^9.0.0",
