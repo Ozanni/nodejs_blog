@@ -3,7 +3,7 @@
 
 ## Mô Tả
 
-Đây là một blog học tiếng anh cá nhân được xây dựng bằng Node.js. Ở đây, bạn có thể xem các blog mọi người chia sẻ và có thể quản lý blog cá nhân của mình.
+Đây là một blog học tiếng anh cá nhân được xây dựng bằng Node.js. Ở đây, bạn có thể quản lý các blog của mình.
 
 ## Bắt Đầu
 
